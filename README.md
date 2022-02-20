@@ -1,18 +1,18 @@
 # Keycloak playground
 
-#HOW TO RUN
+# how to run
 1. run init.sh, this prepares/activates the python virtual env and generates rsa keys/certs
 2. cd to the given dir
 3. docker-compose up
 4. run the tester.py file with python3
 
-#EXAMPLES
-##service account
+# examples
+## service account
 - service account with client secret
 - service account with signed JWT/preset public key
 - service account with signed JWT/JWKS URL
 
-#DEV ENVIRONMENT
+# DEV environment
 - Ubuntu 20.04 LTS
 - Docker 20.10.12
 - Python 3.8.10
